@@ -1,0 +1,16 @@
+To install, simply type
+
+pip install -r requirements.txt
+
+or
+
+pip3 install -r requirements.txt
+
+then open python and type
+
+import plotly
+plotly.tools.set_credentials_file(username='YOUR_USERNAME', api_key='YOUR_API_KEY')
+
+if you don't have an account, read https://plot.ly/python/getting-started/
+
+this program was tested with python 3.5.2 on ubuntu 16.4
